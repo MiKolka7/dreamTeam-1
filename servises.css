@@ -75,20 +75,86 @@ a, a:hover {text-decoration: none;}
 
 .container {
 	width: 951px;
-	margin: 0, auto;
+	margin: 0 auto;
 }
 
 
-.about {
+.about_me {
 	background: #fff;
 	height: 600px;
+	}
+.about_me-item {
+	text-align: center;
+	font-family: 'Myriad Pro';
+	font-size: 30px;
+	color: #5a5a5a;
 	margin-top: 72px;
-	margin-left: 65px;
+	margin-bottom: 24px;
+	}
+.about_me-text {
+	width: 30%;
+	height: 240px;
+	font-family: 'Myriad Pro';
+	font-size: 14px;
+	color: #5a5a5a;
+	line-height: 18px;
+	}
+.about_me-scrn {
+	width: 69%;	
+	margin-top: -95px;
 }
-.about_me-item {}
-.about_me-text {}
-.about_me-scrn {}
-.servises {}
-.servise-iten {}
-.serv-s {}
-.map {}
+
+.servises {
+	background: #F8F8F8;
+	height: 425px;
+}
+.serv {
+	
+}
+.servise-iten {
+	text-align: center;
+	font-family: 'Myriad Pro';
+	font-size: 30px;
+	color: #5a5a5a;
+	padding-top: 72px;
+	margin-bottom: 24px;
+}
+.serv-s {
+	text-align: center;
+	
+}
+
+
+.circle {
+	width: 64px;
+    height: 64px;
+    background: #d55727;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+	display: inline-block;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+li {
+	display: inline-block;
+	width: 33%;
+	}
+
+.serv-s h2 {
+	font-family: 'Myriad Pro';
+	font-size: 16px;
+	color: #5a5a5a;
+	padding-top: 25px;
+	margin-bottom: 24px;
+}
+
+.c1 {
+	background-image: url(img/icon-list.png);
+}	
+.map {
+	background: url(bg-time.png);
+	background-size: cover;
+}
+
