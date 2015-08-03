@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+		/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.folio-name{
+    font-size: 40px;
+    font-family: "Verdana";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 74px 0 93px;
+    position: relative;
+}
+
+ul{
+    font-size: 0;
+}
+.list-item{
+    display: inline-block;
+    width: 33.33%;
+}
+.rectangle-portf{
+    height: 2px;
+    margin: 0 auto;
+    width: 42px;
+    background-color: #d55727;
+    position: relative;
+    top: -77px;
+}
+.con-1 img{
+    height:397px;
+}
+img {
+    width: 100%;
+}
+.triangle{
+    margin:26px auto 75px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #d55727;
+    position: relative;
+}
+
+.clients{
+  font-size: 40px;
+  font-family: "Verdana";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-align: center;
+}
+.second-rect{
+    height: 2px;
+    margin:23px auto;
+    width: 42px;
+    background-color: #d55727;   
+   
+}
+.second-list{
+    margin:0 100px;
+}
+.second-list-item{
+    display: inline-block;
+    width: 12%;
+    margin: 52px 147px;
+    vertical-align: middle;
+}
