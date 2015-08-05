@@ -290,7 +290,7 @@ ul{
     top: -77px;
 }
 .con-1 img{
-    height:397px;
+    height:374px;
 }
 
 .image-for-list, 
@@ -327,7 +327,7 @@ ul{
 .second-list-item{
     display: inline-block;
     width: 12%;
-    margin: 52px 147px;
+    margin: 10%;
     vertical-align: middle;
 }
 
@@ -365,6 +365,15 @@ ul{
     overflow: hidden;
 }
 
+    .footer-under
+    {
+
+            height: 2px;
+            margin: 0 auto;
+            width: 42px;
+            background-color: #d55727;
+            position: relative;
+    }
 .footer-content
 {
     width: 1230px;
