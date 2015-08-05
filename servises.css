@@ -78,6 +78,25 @@ a, a:hover {text-decoration: none;}
 	margin: 0 auto;
 }
 
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+    url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
+    src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
+    url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
 .about_me {
 	background: #fff;
@@ -85,8 +104,8 @@ a, a:hover {text-decoration: none;}
 	}
 .about_me-item {
 	text-align: center;
-	font-family: 'Myriad Pro';
-	font-size: 30px;
+	font-family: 'RalewayRegular';
+	font-size: 40px;
 	color: #000;
 	text-transform: uppercase;
 	margin-top: 72px;
@@ -104,7 +123,7 @@ a, a:hover {text-decoration: none;}
 .about_me-text {
 	width: 30%;
 	height: 240px;
-	font-family: 'Myriad Pro';
+	font-family: 'HelveticaRegular';
 	font-size: 14px;
 	color: #5a5a5a;
 	line-height: 18px;
@@ -126,8 +145,8 @@ a, a:hover {text-decoration: none;}
 }
 .servise-iten {
 	text-align: center;
-	font-family: 'Myriad Pro';
-	font-size: 30px;
+	font-family: 'RalewayRegular';
+	font-size: 40px;
 	color: #000;
 	text-transform: uppercase;
 	padding-top: 75px;
@@ -165,13 +184,13 @@ a, a:hover {text-decoration: none;}
 	display: inline-block;
 	width: 33%;
 	text-transform: uppercase;
-	font-family: 'Myriad Pro Regular';
+	font-family: 'HelveticaRegular';
 	font-size: 14px;
 	color: #5a5a5a;
 	}
 
 .serv-s h2 {
-	font-family: 'Myriad Pro';
+	font-family: 'HelveticaRegular';
 	font-size: 16px;
 	color: #646464;
 	margin-bottom: 24px;
