@@ -41,10 +41,13 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+@font-face {
+    font-family: Raleway;
+    src: url(font/Raleway-Regular.ttf); 
+}
 .folio-name{
     font-size: 40px;
-    font-family: "Verdana";
+    font-family: Raleway;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     text-align: center;
@@ -85,7 +88,7 @@ ul{
 
 .clients{
   font-size: 40px;
-  font-family: "Verdana";
+  font-family: Raleway;
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   text-align: center;
