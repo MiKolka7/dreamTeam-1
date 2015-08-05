@@ -12,6 +12,7 @@ body {
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
+	        background-image: url("img/bg-header.png")
 }
 .circle-blue{
 	position: relative;
