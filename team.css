@@ -145,8 +145,8 @@ a, a:hover {text-decoration: none;}
     }
 .about_me-item {
     text-align: center;
-    font-family: 'Myriad Pro';
-    font-size: 30px;
+    font-family: 'Raleway';   
+    font-size: 40px;
     color: #000;
     text-transform: uppercase;
     margin-top: 72px;
@@ -164,7 +164,7 @@ a, a:hover {text-decoration: none;}
 .about_me-text {
     width: 30%;
     height: 240px;
-    font-family: 'Myriad Pro';
+    font-family: 'Helvetica';    
     font-size: 14px;
     color: #5a5a5a;
     line-height: 18px;
@@ -186,8 +186,8 @@ a, a:hover {text-decoration: none;}
 }
 .servise-iten {
     text-align: center;
-    font-family: 'Myriad Pro';
-    font-size: 30px;
+    font-family: 'Raleway';    
+    font-size: 40px;
     color: #000;
     text-transform: uppercase;
     padding-top: 75px;
@@ -421,7 +421,7 @@ ul{
             
             font-family: Helvetica;
             font-size: 18px;
-            font-weight: 400;
+            font-weight: 400;S
             line-height: 14px;
         }
 
@@ -439,7 +439,7 @@ ul{
             width: 440px;
             height: 110px;
             color: #f8f8f8;
-            font-family: Helvetica;
+            font-family: "Helvetica"S;
             font-size: 14px;
             font-weight: 400;
             line-height: 24px;
