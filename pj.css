@@ -27,7 +27,11 @@ body {
     }
     
 
+<<<<<<< Updated upstream
 .circle-blue::before {
+=======
+.circle::before {
+>>>>>>> Stashed changes
 	content: '';
 	position: absolute;
 	top: 0;
@@ -55,15 +59,28 @@ body {
 		padding: 9px 6px;
 		margin: 12px 10px;
 		display: inline-block;
+<<<<<<< Updated upstream
 		font-size: 18px;
+=======
+		font-size: 14px;
+>>>>>>> Stashed changes
 		text-decoration: none;
 		white-space: nowrap;
 		color: white;
 		font-family: Helvetica;
+<<<<<<< Updated upstream
 		font-size: 14px;
 		font-weight:400px;
 		text-transform: uppercase;
+<<<<<<< Updated upstream
 		line-height: 14px;
+=======
+=======
+        font-weight: 400;
+        text-transform: uppercase;
+
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 	}
  .menu-item:hover,
  .menu-item.is-active

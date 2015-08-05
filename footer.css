@@ -52,24 +52,26 @@ table {
 
 .footer-top-sec
 {
+
 	background-image: url(img/bg-time.png);	
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
 }
 
-	h1
+	.footer-top-sec h1
 	{
 		padding-top: 72px;
 		text-align: center;
 		color: #FFF;
 		height: 30px;
-		font-family: Raleway;
+		font-family: "Rele";
 		font-size: 40px;
 		font-weight: 400;
 		line-height: 14px;
 		text-transform: uppercase;
 	}
+
 
 .footer-top-sec:after
 {
@@ -79,16 +81,21 @@ table {
 	overflow: hidden;
 }
 
+.footer-content
+{
+	width: 1230px;
+	height: 600px;
+}
+
 	.sidebar-left
 	{
 		float: left;
-		width: 465px;
-		margin: 91px 0 0 130px;
+		width: 480px;
+		margin: 91px 65px 0 130px;
 	}
 
 		input, textarea
 		{
-			
 			padding: 0 13px;
 			font-family: Helvetica;
 			font-size: 18px;
@@ -136,10 +143,10 @@ table {
 
 	.sidebar-right
 	{
-		float: right;
+		float: left;
 		width: 459px;
 		color: #FFF;
-		margin: 100px 120px 0 0;
+		margin: 100px 61px 0 0;
 	}
 
 		.sidebar-right-text
@@ -167,6 +174,7 @@ table {
 		vertical-align: baseline;
 	}
 
+
 	.tel
 	{
 		padding-left: 5px;
@@ -179,7 +187,8 @@ table {
 	height: 60px;
 }
 
-ul
+
+.footer-bottom-section ul
 {
 	list-style-type: none;
 }
