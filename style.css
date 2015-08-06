@@ -298,10 +298,6 @@ ul {
     top: -77px;
 }
 
-.con-1 img {
-    height: 374px;
-}
-
 .image-for-list,
 .image-for-second-list {
     width: 100%;
@@ -339,8 +335,8 @@ ul {
 
 .second-list-item {
     display: inline-block;
-    width: 12%;
-    margin: 10%;
+    width: 20%;
+    margin: 5% 6% 13%;
     vertical-align: middle;
 }
 
