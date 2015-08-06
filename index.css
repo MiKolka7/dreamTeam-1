@@ -439,17 +439,19 @@ textarea {
     width: 459px;
     color: #FFF;
     margin: 100px 61px 0 0;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 100;
+
 }
 
 .sidebar-right-text {
-    width: 440px;
+    width: 446px;
     height: 110px;
     color: #f8f8f8;
-    font-family: "Helvetica" S;
-    font-size: 14px;
-    font-weight: 400;
     line-height: 24px;
     margin-bottom: 53px;
+   
 }
 
 .contacts > div > a {
