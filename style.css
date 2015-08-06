@@ -343,9 +343,9 @@ ul {
 .footer-top-sec {
 
     background-image: url(img/bg-time.png);
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+    background-size: cover;    
 }
 
 .footer-top-sec h1 {
@@ -367,14 +367,6 @@ ul {
     overflow: hidden;
 }
 
-.footer-under {
-
-    height: 2px;
-    margin: 0 auto;
-    width: 42px;
-    background-color: #d55727;
-    position: relative;
-}
 
 .footer-content {
     width: 1230px;
@@ -443,44 +435,74 @@ textarea {
 
 .sidebar-right-text {
     width: 446px;
-    height: 110px;
     color: #f8f8f8;
     line-height: 24px;
     margin-bottom: 53px;
    
 }
 
-.contacts > div > a {
+.contacts  a {
     text-decoration: none;
     color: #FFF;
     padding-left: 30px;
 }
 
-.contacts div {
-    margin-bottom: 31px;
+    .contacts-item
+    {
+        margin-bottom: 30px;
+    }
+
+    .contacts-item:hover a
+    {
+        cursor: pointer;
+    }
+
+    .contacts-item img
+    {
+        vertical-align: middle;
+    }
+
+.footer-under{
     vertical-align: baseline;
+    height: 2px;
+    margin: 0 auto;
+    width: 42px;
+    background-color: #d55727;
+    margin-top: 27px;
+    position: relative;
 }
 
 .tel {
     padding-left: 5px;
 }
 
+.mob
+{
+    padding-left: 37px;
+}
+
+
 .footer-bottom-section {
     background-color: #d55727;
     height: 60px;
 }
 
-.footer-bottom-section ul {
+.footer-bottom-links {
     list-style-type: none;
     width: 442px;
     margin: 0 auto;
 
 }
 
-.footer-bottom-section li {
+.bottom-link {
     display: inline-block;
-    padding: 14px 75px 0 0;
+    margin: 14px 75px 0 0;
     vertical-align: middle;
+}
+
+.bottom-link:hover
+{
+    cursor: pointer;
 }
 
    

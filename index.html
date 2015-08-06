@@ -139,14 +139,14 @@
             <section class="footer-content">
                 <section class="sidebar-left">
 
-                    <p><input type="text" class="input input-text" placeholder="Your Name"></p>
+                    <p><input type="text" class="input input-text" placeholder="Your Name" autocomplete="on" autofocus></p>
 
-                    <p><input type="text" class="input input-text" placeholder="Your Email"></p>
+                    <p><input type="email" class="input input-text" placeholder="Your Email" autocomplete="on"></p>
 
                     <p><textarea name="" id="" cols="30" rows="15" class="input" placeholder="Your Message"></textarea>
                     </p>
 
-                    <p><input type="reset" class="button" value="Send"></p>
+                    <p><input type="submit" class="button" value="Send"></p>
                 </section>
 
 
@@ -159,17 +159,17 @@
                     </p>
 
                     <section class="contacts">
-                        <div>
+                        <div class="contacts-item mail">
                             <img src="img/icon-send.png" alt="">
-                            <a href="">cheshirrrsky@gmail.com</a>
+                            <a href="mailto:cheshirrrsky@gmail.com">cheshirrrsky@gmail.com</a>
                         </div>
-                        <div class="tel">
+                        <div class="contacts-item tel">
                             <img src="img/icon-mobile.png" alt="">
-                            <a href="" class="mob">+38 096 095 00 62</a>
+                            <a href="tel:+380960950062" class="mob">+38 096 095 00 62</a>
                         </div>
-                        <div>
+                        <div class="contacts-item skype">
                             <img src="img/icon-skype.png" alt="">
-                            <a href="">cheshirrrsky</a>
+                            <a href="skype:chechyrrrsky?call">cheshirrrsky</a>
                         </div>
                     </section>
                 </aside>
@@ -178,18 +178,26 @@
 
 
         <section class="footer-bottom-section">
-            <ul>
-                <li class="be">
-                    <img src="img/icon-be.png" height="26" width="41" alt="">
+            <ul class="footer-bottom-links">
+                <li class="bottom-link">
+                    <a href="#">                    
+                        <img src="img/icon-be.png" height="26" width="41" alt="">
+                    </a>
                 </li>
-                <li class="fb">
-                    <img src="img/icon-fb.png" alt="">
+                <li class="bottom-link">
+                    <a href="https://www.facebook.com">                    
+                        <img src="img/icon-fb.png" alt="">
+                    </a>
                 </li>
-                <li class="yt">
-                    <img src="img/icon-yt.png" height="34" width="32" alt="">
+                <li class="bottom-link">
+                    <a href="https://www.youtube.com/">                       
+                        <img src="img/icon-yt.png" height="34" width="32" alt="">
+                    </a>
                 </li>
-                <li class="inst">
-                    <img src="img/icon-in.png" alt="">
+                <li class="bottom-link">
+                    <a href="https://instagram.com/">
+                         <img src="img/icon-in.png" alt="">
+                    </a>
                 </li>
             </ul>
         </section>
