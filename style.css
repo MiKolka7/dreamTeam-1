@@ -58,7 +58,7 @@ a, a:hover {
     src: url(font/Raleway-Regular.ttf);
 }
 
-/* header, made by Natalie */
+/* header, Natalie made */
 
 .header1 {
     padding: 120px 0 180px;
@@ -125,7 +125,7 @@ a, a:hover {
     }
 
 
-/* Sevices, made by Andriy */
+/* Sevices, Andriy made */
 .about_me {
     background: #fff;
     height: 600px;
@@ -271,7 +271,7 @@ a, a:hover {
         margin-left: -54px;
     }
 
-/* Portfolio, made by Anton */
+/* Portfolio, Anton made */
 
 .folio-name {
     font-size: 40px;
@@ -343,7 +343,7 @@ a, a:hover {
         vertical-align: middle;
     }
 
-/* Footer, made by Liuda */
+/* Footer,  Liuda made */
 
 .footer-top-sec {
 
@@ -497,10 +497,7 @@ a, a:hover {
             margin: 14px 75px 0 0;
             vertical-align: middle;
         }
-
-        .bottom-link:hover {
-            cursor: pointer;
-        }
+        
 
    
 
