@@ -96,6 +96,25 @@ a, a:hover {
         border-right: 10px solid transparent;
         border-top: 10px solid white;
     }
+    .square {
+        position: relative;
+        top: -324px;
+        width: 48px;
+        height: 45px;
+        background: turquoise;
+        float: right;
+    }
+
+    .square::before {
+        content: '';
+        position: absolute;
+        width: 28px;
+        height: 32px;
+        top: 6px;
+        left: 12px;
+        background: url(img/arr-down.png);
+        background-repeat: no-repeat;
+        }
 
 .menu {
     vertical-align: middle;
