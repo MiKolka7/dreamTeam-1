@@ -478,6 +478,12 @@ a, a:hover {
             padding-left: 30px;
         }
 
+        .contact-mail
+        {
+            position: relative;
+            left: -6px;
+        }
+
             .contacts-item {
                 margin-bottom: 30px;
             }
