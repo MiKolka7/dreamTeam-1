@@ -341,6 +341,7 @@ img{
         .list-item {
             display: inline-block;
             width: 33.33%;
+            cursor:pointer;
         }
 
             .image-for-list,
@@ -567,7 +568,7 @@ img{
         display: none;
    }
    .second-list-item{
-    width: 40%;
+    width: 100%;
    } 
    .list-item{
     width:100%;
